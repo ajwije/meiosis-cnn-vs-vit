@@ -1,0 +1,23 @@
+# Core deep learning
+torch==2.3.0
+torchvision==0.18.0
+
+# HuggingFace
+transformers>=4.41.0
+datasets==2.19.0
+
+# Image processing
+Pillow==10.3.0
+timm==0.9.16
+
+# Data science
+numpy==1.26.4
+scikit-learn==1.4.2
+pandas==2.2.2
+matplotlib==3.8.4
+
+# Grad-CAM (attention visualization)
+grad-cam==1.5.0
+
+# Utilities
+tqdm==4.66.4
