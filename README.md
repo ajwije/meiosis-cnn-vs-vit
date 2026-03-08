@@ -15,9 +15,9 @@ Six years later, I revisited the same 127-image dataset using a pretrained Visio
 
 | Model | Val Accuracy | F1 Macro | Notes |
 |-------|-------------|----------|-------|
-| 2018 CNN (reported) | ~93% ⚠️ | N/A | Train = Val data leak |
-| CNN from scratch (honest) | 77% | 0.75 | Stratified split, weighted loss |
-| ViT fine-tuned (honest) | 96% | 0.96 | `google/vit-base-patch16-224` |
+| 2018 CNN  | ~93% ⚠️ | N/A | Train = Val data leak |
+| CNN from scratch | 77% | 0.75 | Stratified split, weighted loss |
+| ViT fine-tuned | 96% | 0.96 | `google/vit-base-patch16-224` |
 
 ## Why ViT Wins on 127 Images
 
